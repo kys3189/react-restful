@@ -11,8 +11,7 @@ import router from './router/router';
 function App() {
   return (
     <>
-      <DeleteContainer></DeleteContainer>
-      {/* <RouterProvider router={router}/> */}
+      <RouterProvider router={router}/>
     </>
   );
 }

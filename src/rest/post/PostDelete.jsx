@@ -12,7 +12,7 @@ const PostDelete = () => {
             await fetch(`http://localhost:10000/posts/api/post/${id}`, {
                 method : "DELETE"
             })
-            navigate(`/`);
+            navigate(`/post`);
         }
     }
 

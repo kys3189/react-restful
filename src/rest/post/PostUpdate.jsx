@@ -38,7 +38,7 @@ const PostUpdate = () => {
             body : JSON.stringify(data),
         });
 
-        navigate(`/`);
+        navigate(`/post`);
     }
 
     return (

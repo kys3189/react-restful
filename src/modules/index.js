@@ -1,4 +1,10 @@
+import { combineReducers } from "redux";
+import user from "./user";
+import post from "./post";
 
-// 타입
-const SET_USER = "user/SET_USER";
-const SET_USER_STATUS = "user/SET_USER_STATUS";
+const rootReduser = combineReducers({
+    user,
+    post
+})
+
+export default rootReduser

@@ -17,7 +17,7 @@ const PostsContainer = () => {
 
   const postLists = posts.map(({id, postTitle, postContent}, i) => (
     <li>
-      <Link to={`/read/${id}`}>
+      <Link to={`/post/read/${id}`}>
         {postTitle}
       </Link>
     </li>

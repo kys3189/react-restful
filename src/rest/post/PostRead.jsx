@@ -33,13 +33,13 @@ const PostRead = () => {
                 <li>{postTitle}</li>
                 <li>{postContent}</li>
             </ul>
-            <Link to={"/"}>
+            <Link to={"/post"}>
                 목록으로
             </Link>
-            <Link to={`/update/${id}`}>
+            <Link to={`/post/update/${id}`}>
                 수정하기
             </Link>
-            <Link to={`/delete/${id}`}>
+            <Link to={`/post/delete/${id}`}>
                 삭제하기
             </Link>
         </div>
